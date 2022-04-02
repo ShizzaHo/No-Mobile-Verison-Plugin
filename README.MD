@@ -15,7 +15,7 @@
 
 Просто добавьте в конец вашего BODY следующую строку:
 
- ``` <script src="https://cdn.jsdelivr.net/gh/user/repo@version/file"></script> ```
+ ``` <script src="https://cdn.jsdelivr.net/gh/ShizzaHo/No-Mobile-Verison-Plugin@1.0.0/plugin/NoMobileVersionPlugin.js"></script> ```
 
 Или, скачайте скрипт из репозитория, и установите его вручную:
 
