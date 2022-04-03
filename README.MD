@@ -15,11 +15,17 @@
 
 Просто добавьте в конец вашего BODY следующую строку:
 
- ``` <script src="https://cdn.jsdelivr.net/gh/ShizzaHo/No-Mobile-Verison-Plugin@1.0.0/plugin/NoMobileVersionPlugin.js"></script> ```
+``` <script src="https://cdn.jsdelivr.net/gh/ShizzaHo/No-Mobile-Verison-Plugin@1.1.0/plugin/NoMobileVersionPlugin.js"></script> ```
 
 Или, скачайте скрипт из репозитория, и установите его вручную:
 
 ``` <script src="/NoMobileVersionPlugin.js"></script> ```
+
+ОПЦИОНАЛЬНО: Если логика вашего сайта уже использует onload, то лучшим решением будет использовать версию "5second"
+
+``` <script src="https://cdn.jsdelivr.net/gh/ShizzaHo/No-Mobile-Verison-Plugin@1.1.0/plugin/NoMobileVersionPlugin5second.js"></script> ```
+
+``` <script src="/NoMobileVersionPlugin5second.js"></script> ```
 
 ## Настройка плагина
 
