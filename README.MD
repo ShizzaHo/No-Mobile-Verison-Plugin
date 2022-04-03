@@ -13,7 +13,7 @@
 
 ## Установка плагина на сайт
 
-Просто добавьте в конец вашего BODY следующую строку:
+Просто добавьте в разметку сайта следующую строку:
 
 ``` <script src="https://cdn.jsdelivr.net/gh/ShizzaHo/No-Mobile-Verison-Plugin@1.1.0/plugin/NoMobileVersionPlugin.js"></script> ```
 

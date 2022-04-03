@@ -81,12 +81,12 @@ let blockPage =
     </style>
 `;
 
-window.onload = () => {
+setTimeout(()=>{
     if(NMVP.autoUse === true){
         addDependencyPlugin();
         checkDevice();
     }
-}
+},5000)
 
 function addDependencyPlugin() {
     document.head.innerHTML += `
