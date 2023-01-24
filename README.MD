@@ -7,25 +7,18 @@
 
 После того как пользователь заходит на сайт, и сайт успешно загружается, плагин определяет с какого устройства сидит пользователь, и если плагин определяет мобильное устройство, то плагин очищает все содержимое страницы, и вставляет блок с запретом.
 ### Техническое объяснение: 
-Проверка загрузки страницы осуществляется через: ***window.onload***
 После загрузки, скрипт смотрит на **navigator.userAgent**, и определяет с какого устройства сидит пользователь
-Если скрипт понимает что юзер сидит с мобильного устройста, то очищает весь блок **body**, и заполняет его заранее заготовленным кодом
+Если скрипт понимает что юзер сидит с мобильного устройста, то очищает весь блок **body** и **head**, и заполняет его заранее заготовленным кодом
 
 ## Установка плагина на сайт
 
 Просто добавьте в разметку сайта следующую строку:
 
-``` <script src="https://cdn.jsdelivr.net/gh/ShizzaHo/No-Mobile-Verison-Plugin@1.1.0/plugin/NoMobileVersionPlugin.js"></script> ```
+``` <script src="https://cdn.jsdelivr.net/gh/ShizzaHo/No-Mobile-Verison-Plugin@1.2.0/src/NoMobileVersionPlugin.js"></script> ```
 
 Или, скачайте скрипт из репозитория, и установите его вручную:
 
-``` <script src="/NoMobileVersionPlugin.js"></script> ```
-
-ОПЦИОНАЛЬНО: Если логика вашего сайта уже использует onload, то лучшим решением будет использовать версию "5second"
-
-``` <script src="https://cdn.jsdelivr.net/gh/ShizzaHo/No-Mobile-Verison-Plugin@1.1.0/plugin/NoMobileVersionPlugin5second.js"></script> ```
-
-``` <script src="/NoMobileVersionPlugin5second.js"></script> ```
+``` <script src="./NoMobileVersionPlugin.js"></script> ```
 
 ## Настройка плагина
 
